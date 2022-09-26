@@ -1,0 +1,10 @@
+Debug
+Debug_static
+Release
+Releas_static
+*.user
+*.suo
+**/ia32/*.obj
+redist/verge.exp
+redist/verge.lib
+redist/verge.pdb

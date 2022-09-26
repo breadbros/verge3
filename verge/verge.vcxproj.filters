@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d31df07f-7a1e-4238-b39e-148a623a3d8f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="dumb">
+      <UniqueIdentifier>{817a4a61-1f47-4c99-9b9d-7f4b52152d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumb\src">
+      <UniqueIdentifier>{2a412f33-8a72-4e5a-9241-a284525b76a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumb\src\core">
+      <UniqueIdentifier>{427d65dd-b1ea-4f63-8a03-df6743c1fee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumb\src\helpers">
+      <UniqueIdentifier>{6843f7d5-b18d-4455-b913-b86079632e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumb\src\it">
+      <UniqueIdentifier>{7cc380a6-1d35-40d2-8a4b-ef5f2d495b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumb\include">
+      <UniqueIdentifier>{c876cb3c-b6b1-486d-ac39-c8965f0906e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumb\include\internal">
+      <UniqueIdentifier>{f0e11498-b654-466e-888a-0d960d01fd92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{32635d70-c16f-449e-b4b8-6d76dd7fd94f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\a_codec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\a_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\a_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\a_handle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\a_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\a_vfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\algebra3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_chr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_editcode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_sprites.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_startup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\g_vsp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\garlick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\lua_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\lua_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\snd_fmod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\vc_builtins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\vc_library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\vid_ddblit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\vid_fbfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\vid_gdibase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\vid_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\vid_sysfont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\vid_timeless.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\win_editcode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\win_joystick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\win_keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\win_mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\win_movie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\win_network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\win_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\win_timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\xerxes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\atexit.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\duhlen.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\duhtag.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\dumbfile.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\loadduh.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\makeduh.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\rawsig.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\readduh.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\register.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\rendduh.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\rendsig.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\core\unload.c">
+      <Filter>dumb\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\helpers\clickrem.c">
+      <Filter>dumb\src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\helpers\memfile.c">
+      <Filter>dumb\src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\helpers\resample.c">
+      <Filter>dumb\src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\helpers\sampbuf.c">
+      <Filter>dumb\src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\helpers\silence.c">
+      <Filter>dumb\src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\helpers\stdfile.c">
+      <Filter>dumb\src\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\itload.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\itload2.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\itmisc.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\itorder.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\itread.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\itread2.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\itrender.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\itunload.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\loadmod.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\loadmod2.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\loads3m.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\loads3m2.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\loadxm.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\loadxm2.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\readmod.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\readmod2.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\reads3m.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\reads3m2.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\readxm.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\readxm2.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dumb\src\it\xmeffect.c">
+      <Filter>dumb\src\it</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dumb\include\dumb.h">
+      <Filter>dumb\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dumb\include\internal\dumb.h">
+      <Filter>dumb\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dumb\include\internal\it.h">
+      <Filter>dumb\include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\a_codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\a_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\a_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\a_handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\a_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\a_vfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\algebra3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\blitter_include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\fontdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_chr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_editcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_sprites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_startup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\g_vsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\garlick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\lua_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\lua_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\opcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\sincos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\snd_audiere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\snd_fmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\vcsplash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\vid_fbfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\vid_gdibase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\vid_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\vid_sysfont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\win_editcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\win_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\win_keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\win_mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\win_movie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\win_network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\win_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\win_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\xerxes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\verge-logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="verge.rc" />
+  </ItemGroup>
+</Project>

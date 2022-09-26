@@ -16,6 +16,7 @@
 
 #include "xerxes.h"
 #include <cassert>
+#include <memory>
 
 corona::Image* load_image_from_packfile(const char* filename)
 {
@@ -25,10 +26,10 @@ corona::Image* load_image_from_packfile(const char* filename)
 		err("loadimage: couldn't load image %s; couldnt find a file or a vfile", filename);
 	}
 	int l = filesize(vf);
-	std::auto_ptr<char> buffer(new char[l]);
+	std::unique_ptr<char> buffer(new char[l]);
 	vread(buffer.get(), l, vf);
 	vclose(vf);
-	std::auto_ptr<corona::File> memfile(corona::CreateMemoryFile(buffer.get(), l));
+	std::unique_ptr<corona::File> memfile(corona::CreateMemoryFile(buffer.get(), l));
 	return corona::OpenImage(memfile.get(), corona::FF_AUTODETECT, corona::PF_DONTCARE);
 }
 

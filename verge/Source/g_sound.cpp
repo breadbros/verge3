@@ -32,10 +32,16 @@ SoundEngine *snd_engine;
 char playingsng[80] = {0};
 
 #ifdef _WIN32
+static bool doingFmod;
 FARPROC WINAPI FmodFailHook(unsigned /* dliNotify */, PDelayLoadInfo  /* pdli */) {
-	err("Failure initializing fmod. FMOD.dll is probably missing");
+	if(doingFmod)
+	{
+		err("Failure initializing fmod. FMOD.dll is probably missing");
+		return 0;
+	}
 	return 0;
 }
+extern "C" PfnDliHook   __pfnDliNotifyHook2 = &FmodFailHook;
 #endif
 
 
@@ -59,20 +65,10 @@ bool snd_Init(int soundEngine) {
 
 	bool ret;
 
-	#ifdef _WIN32
-	if(soundEngine == 0)
-		__pfnDliFailureHook2 = FmodFailHook;
-	#endif
-	
 	if(snd_engine)
 		ret = snd_engine->init();
 	else ret = false;
 	
-	#ifdef _WIN32
-	if(soundEngine == 0)
-		__pfnDliFailureHook2 = 0;
-	#endif
-
 	return ret;
 	
 }
