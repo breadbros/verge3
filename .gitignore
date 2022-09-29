@@ -8,3 +8,5 @@ Releas_static
 redist/verge.exp
 redist/verge.lib
 redist/verge.pdb
+verge/v3.log
+.vs/*
